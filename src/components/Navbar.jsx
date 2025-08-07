@@ -31,7 +31,7 @@ const Navbar = () => {
       animate={{ y: 0 }}
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
         isScrolled
-          ? ' backdrop-blur-xl shadow-2xl border-b border-gray-200/20 w-[50%] mx-auto rounded-2xl mt-2 transition-all duration-300'
+          ? ' backdrop-blur-xl shadow-2xl border-b border-gray-200/20 lg:w-[50%] mx-auto rounded-2xl mt-2 transition-all duration-300'
           : 'bg-gradient-to-r from-dark via-secondary to-dark'
       }`}
     >
